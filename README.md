@@ -1,6 +1,8 @@
-# ai-agent-application
-# Required packages (will later add to requirements):
-# streamlit google-generativeai python-dotenv
+# AI Travel Planning Agent
+## Required packages (will later add to requirements):
+- streamlit google-genai python-dotenv requests
+
+# Run...
 To run application on local server:
 ```streamlit run main.py --server.port <port number>```
 - Ensure the server is up:
@@ -8,5 +10,5 @@ To run application on local server:
 
 Check list of available models that work with your API key:
 ```python list_models.py```
- - Ensure you have a working api key... we use (Google Gemini's API|https://ai.google.dev/gemini-api/docs/api-key)
+ - Ensure you have a working api key. We use Google Gemini's API: https://ai.google.dev/gemini-api/docs/api-key
  
